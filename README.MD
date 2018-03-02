@@ -1,4 +1,4 @@
-# 使用Spring Cloud Sleuth、Zipkin、kafka、Elasticsearch实现分布式追踪
+# 使用Spring Cloud Sleuth、Zipkin、Kafka、Elasticsearch实现分布式追踪
 本例使用`Spring Cloud Sleuth`来实现分布式追踪，利用`Kafka`实现异步的分布式追踪，使用`Elasticsearch`存储追踪数据，使用`Zipkin`查看追踪内容。
 
 ## 1.前置条件
