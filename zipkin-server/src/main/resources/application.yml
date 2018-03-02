@@ -1,0 +1,15 @@
+spring.application.name: zipkin-server
+spring.cloud.stream.kafka.binder.zkNodes: 192.168.1.222
+spring.cloud.stream.kafka.binder.brokers: 192.168.1.222
+
+zipkin:
+  storage:
+    type: elasticsearch
+    elasticsearch:
+      hosts: http://192.168.1.135:32651
+      username: elastic
+      password: changeme
+      cluster: elasticsearch
+      index: zipkin
+      index-shards: 1
+      index-replicas: 1
